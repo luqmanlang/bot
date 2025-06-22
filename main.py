@@ -873,7 +873,7 @@ class BitcoinSentinelAdvance(commands.Cog):
         else:
             await ctx.send(embed=report_embed)
 
-    @commands.command(name='help', help='Tunjukkan senarai arahan bot ini.')
+    @commands.command(name='bantuan', help='Tunjukkan senarai arahan bot ini.')
     async def help_command(self, ctx):
         embed = discord.Embed(
             title="Panduan Bot Bitcoin Sentinel AI (Advance V4.0 - CMC)",
